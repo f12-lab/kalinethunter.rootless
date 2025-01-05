@@ -63,6 +63,6 @@ This repository provides a guide for installing and troubleshooting common issue
   - Uncomment and add the corresponding line.
 - Create a script to start PulseAudio and set the permissions.
 ## :page_facing_up: LICENSE
-This project is licensed under the [MIT License](https://github.com/F12-Lab/KaliNethunter-rootless-/blob/main/LICENSE). 
+This project is licensed under the [GNU License](https://github.com/F12-Lab/KaliNethunter-rootless-/blob/main/LICENSE). 
 ## :chess_pawn: AUTHOR
 Created by [f12-lab](https://github.com/F12-Lab)
