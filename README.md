@@ -49,7 +49,7 @@ This guide aims to:
 ---
 
 ## **License**  
-This project is licensed under the [GNU License](https://github.com/F12-Lab/KaliNethunter-rootless-/blob/main/LICENSE).
+This project is licensed under the **[GNU License](https://github.com/F12-Lab/KaliNethunter-rootless-/blob/main/LICENSE)**.
 
 ## **Author**  
-Created by **F12-Lab**.  
+Created by **[F12-Lab](https://github.com/f12-lab)**.  
