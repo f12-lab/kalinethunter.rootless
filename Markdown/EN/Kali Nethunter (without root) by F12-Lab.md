@@ -10,7 +10,7 @@
 
 4th Install wget with "pkg install wget".
 
-5th Install the package containing nethunter "wget https://gitlab.com/kalilinux/nethunter/build-scripts/kali-nethunter project/raw/master/nethunter-rootless/install-nethunter-termux".
+5th Install the package containing nethunter "wget -O install-nethunter-termux https://offs.ec/2MceZWr".
 
 6th Do "ls" and you'll see install-nethunter-termux in white, so give it permissions with "chmod +x install-nethunter-termux". Do "ls" again and now it will appear in green.
 
@@ -22,15 +22,15 @@
 
 9.1 If when executing nethunter it says it hasn't been found, then we've encountered a bug in this installation repository. For this, we should execute "./install-nethunter-termux" again, and choose the same option as before (If we chose 1, we choose 1 again). Then we'll see the following comment, where we'll say NO.
 
-![image.png](Kali%20Nethunter%20(without%20root)%20by%20F12-Lab%203c51ae3a9b1448fcac049dee6d74006e/aa4ce00c-7e95-41ac-bc16-a7305868e689.png)
+![image.png](Kali%20Nethunter%20(without%20root)%20by%20F12-Lab/22ea922a-3da4-428c-a94c-32ee49ceedf0.png)
 
 Then, after this, it will start downloading the system, this process will take a while if we chose option 1.
 
-![image.png](Kali%20Nethunter%20(without%20root)%20by%20F12-Lab%203c51ae3a9b1448fcac049dee6d74006e/781277a4-c6c9-453c-9850-08ac75ac8fc9.png)
+![image.png](Kali%20Nethunter%20(without%20root)%20by%20F12-Lab/781277a4-c6c9-453c-9850-08ac75ac8fc9.png)
 
 9.2 When it's finished, we'll see an error message, like this:
 
-![image.png](Kali%20Nethunter%20(without%20root)%20by%20F12-Lab%203c51ae3a9b1448fcac049dee6d74006e/22ea922a-3da4-428c-a94c-32ee49ceedf0.png)
+![image.png](Kali%20Nethunter%20(without%20root)%20by%20F12-Lab/aa4ce00c-7e95-41ac-bc16-a7305868e689.png)
 
 What we should do to fix this error is to execute in the root directory where we are "mkdir chroot". Then we can do "ls" to see that the folders "**chroot**" and "**kali-arm64**" are there. Then after checking this we should do "cp -r kali-arm64 chroot" (This process also takes time).
 
@@ -38,7 +38,7 @@ What we should do to fix this error is to execute in the root directory where we
 
 10th Now you can see the various options to start your kali. When we start ***Termux*** we'll have to type "nh" or "nh -r" to access kali.
 
-![image.png](Kali%20Nethunter%20(without%20root)%20by%20F12-Lab%203c51ae3a9b1448fcac049dee6d74006e/Untitled.png)
+![Untitled](Kali%20Nethunter%20(without%20root)%20by%20F12-Lab/Untitled.png)
 
 11th One of the problems is that DNS servers are not configured by default, so we'll have to escalate to superuser with "sudo su" (the default password is kali) (sometimes it hangs so we'll do "CRTL + C" (if it appears as localhost# type "bash")).
 
@@ -153,4 +153,4 @@ It should look like: "load-module module-native-protocol-tcp auth-ip-acl=127.0.0
 
 15th Search for Volume Control and activate the sound.
 
-[def]: Kali%20Nethunter%20(without%20root)%20by%20F
+[def]: d

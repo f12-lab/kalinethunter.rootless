@@ -22,15 +22,15 @@
 
 9.1º En caso de que al ejecutar nethunter nos diga que no lo ha encontrado, entonces nos ha ocurrido un bug que tiene este repositorio de instalación. Para ello deberemos volver a ejecutar “./install-nethunter-termux“, y volver a elegir la opción anterior, (Si habíamos elegido la 1 volvemos a elegir la 1). Entonces nos saldrá el siguiente comentario, donde le diremos que NO.
 
-![image.png](Kali%20Nethunter%20(sin%20root)%20by%20F12-Lab%20fd1be69b92f74473b8c64bf08767bb1e/aa4ce00c-7e95-41ac-bc16-a7305868e689.png)
+![image.png](Kali%20Nethunter%20(sin%20root)%20by%20F12-Lab/22ea922a-3da4-428c-a94c-32ee49ceedf0.png)
 
 Entonces, después de esto comenzará a descargar el sistema, este proceso tardará un buen rato si hemos elegido la opción 1.
 
-![image.png](Kali%20Nethunter%20(sin%20root)%20by%20F12-Lab%20fd1be69b92f74473b8c64bf08767bb1e/781277a4-c6c9-453c-9850-08ac75ac8fc9.png)
+![image.png](Kali%20Nethunter%20(sin%20root)%20by%20F12-Lab/781277a4-c6c9-453c-9850-08ac75ac8fc9.png)
 
 9.2º Cuando haya terminado, veremos un mensaje de error, como este:
 
-![image.png](Kali%20Nethunter%20(sin%20root)%20by%20F12-Lab%20fd1be69b92f74473b8c64bf08767bb1e/22ea922a-3da4-428c-a94c-32ee49ceedf0.png)
+![image.png](Kali%20Nethunter%20(sin%20root)%20by%20F12-Lab/aa4ce00c-7e95-41ac-bc16-a7305868e689.png)
 
 Lo que deberemos hacer para solucionar este error, es hacer en el directorio root que es donde estaremos “mkdir chroot”. Después podemos hacer un “ls” para ver que están las carpetas “**chroot**” y “**kali-arm64**”.  Entonces deberemos hacer después de comprobarlo “cp -r kali-arm64 chroot” (Este proceso también tarda).
 
@@ -38,7 +38,7 @@ Lo que deberemos hacer para solucionar este error, es hacer en el directorio roo
 
 10º Ahora podremos ver las diversas opciones para encender nuestro kali. Cuando iniciemos ***Termux*** tendremos que poner “nh” o “nh -r” para acceder a kali.
 
-![Untitled](Kali%20Nethunter%20(sin%20root)%20by%20F12-Lab%20fd1be69b92f74473b8c64bf08767bb1e/Untitled.png)
+![Untitled](Kali%20Nethunter%20(sin%20root)%20by%20F12-Lab/Untitled.png)
 
 11º Uno de los problemas es que los servidores DNS no están configurados por defecto, por lo que tendremos que escalar a superusuario con “sudo su” (la contraseña por defecto es kali) (a veces se queda colgado por lo que haremos “CRTL + C” (si nos sale como localhost# ponemos “bash”)).
 
